@@ -18,6 +18,6 @@
     filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
 }
 
-.container {
-    background-color: #234143;
+.background {
+    background-color: azure;
 }
