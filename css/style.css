@@ -18,9 +18,8 @@
     filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
 }
 
-.bg {
+.bgnav {
     background-color: #234143
-    font-family: droid serif pro WGL regular;
 }
 
 .bgabout {
