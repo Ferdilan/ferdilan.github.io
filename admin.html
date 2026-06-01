@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Ferdilan Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+
+    <!-- ======== LOGIN SCREEN ======== -->
+    <div id="auth-container">
+        <div class="login-box">
+            <div class="login-logo"><i class='bx bx-shield-quarter'></i></div>
+            <h2>Admin Panel</h2>
+            <p class="login-subtitle">Masuk untuk mengelola konten portofolio Anda.</p>
+            <form id="login-form">
+                <div class="form-group">
+                    <label>Email</label>
+                    <div class="input-with-icon">
+                        <i class='bx bx-envelope'></i>
+                        <input type="email" id="email" class="form-control" placeholder="admin@email.com" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <div class="input-with-icon">
+                        <i class='bx bx-lock-alt'></i>
+                        <input type="password" id="password" class="form-control" placeholder="••••••••" required>
+                    </div>
+                </div>
+                <p id="auth-error" style="color:#ef4444; font-size:0.85rem; display:none; margin-bottom:1rem;"></p>
+                <button type="submit" class="btn-submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- ======== DASHBOARD ======== -->
+    <div id="dashboard-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <i class='bx bx-code-curly' style="font-size:1.5rem; color:#38bdf8;"></i>
+                <span>Portfolio Admin</span>
+            </div>
+            <ul class="sidebar-nav">
+                <li>
+                    <a id="nav-projects" class="active">
+                        <i class='bx bx-folder'></i> Projects
+                    </a>
+                </li>
+                <li>
+                    <a id="nav-skills">
+                        <i class='bx bx-star'></i> Skills
+                    </a>
+                </li>
+                <li>
+                    <a id="nav-blog">
+                        <i class='bx bx-news'></i> Blog
+                    </a>
+                </li>
+            </ul>
+            <div class="sidebar-footer">
+                <a href="index.html" class="sidebar-link-back"><i class='bx bx-left-arrow-alt'></i> Kembali ke Situs</a>
+                <a id="logout-btn" class="sidebar-link-logout"><i class='bx bx-log-out'></i> Logout</a>
+            </div>
+        </aside>
+        
+        <main class="main-content">
+            <div class="dashboard-header">
+                <h1 id="page-title">Manage Projects</h1>
+                <span id="user-badge" class="user-badge"><i class='bx bx-user-circle'></i> Admin</span>
+            </div>
+
+            <!-- PROJECTS SECTION -->
+            <section id="section-projects" class="section-content active">
+                <div class="card">
+                    <div class="card-header">
+                        <h3><i class='bx bx-plus-circle'></i> Tambah Proyek Baru</h3>
+                    </div>
+                    <form id="form-project" class="admin-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Judul Proyek *</label>
+                                <input type="text" id="proj-title" class="form-control" placeholder="e.g. IoT Sensor Network" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Icon Boxicons</label>
+                                <input type="text" id="proj-icon" class="form-control" placeholder="e.g. bx-broadcast">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Deskripsi *</label>
+                            <input type="text" id="proj-desc" class="form-control" placeholder="Deskripsi singkat proyek" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Tags (pisahkan koma)</label>
+                            <input type="text" id="proj-tags" class="form-control" placeholder="e.g. LoRaWAN, IoT, C++">
+                        </div>
+                        <button type="submit" class="btn-submit"><i class='bx bx-save'></i> Simpan Proyek</button>
+                    </form>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h3><i class='bx bx-list-ul'></i> Daftar Proyek</h3>
+                    </div>
+                    <table>
+                        <thead><tr><th>Proyek</th><th style="width:160px">Aksi</th></tr></thead>
+                        <tbody id="table-projects"></tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- SKILLS SECTION -->
+            <section id="section-skills" class="section-content">
+                <div class="card">
+                    <div class="card-header">
+                        <h3><i class='bx bx-plus-circle'></i> Tambah Kategori Skill</h3>
+                    </div>
+                    <form id="form-skill" class="admin-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Kategori *</label>
+                                <input type="text" id="skill-title" class="form-control" placeholder="e.g. Programming" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Icon Boxicons</label>
+                                <input type="text" id="skill-icon" class="form-control" placeholder="e.g. bx-code-block">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Daftar Skill (pisahkan koma) *</label>
+                            <input type="text" id="skill-list" class="form-control" placeholder="e.g. HTML, CSS, JavaScript, Python" required>
+                        </div>
+                        <button type="submit" class="btn-submit"><i class='bx bx-save'></i> Simpan Skill</button>
+                    </form>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h3><i class='bx bx-list-ul'></i> Daftar Skill</h3>
+                    </div>
+                    <table>
+                        <thead><tr><th>Kategori</th><th style="width:160px">Aksi</th></tr></thead>
+                        <tbody id="table-skills"></tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- BLOG SECTION -->
+            <section id="section-blog" class="section-content">
+                <div class="card">
+                    <div class="card-header">
+                        <h3><i class='bx bx-plus-circle'></i> Tambah Artikel Blog</h3>
+                    </div>
+                    <form id="form-blog" class="admin-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Judul Artikel *</label>
+                                <input type="text" id="blog-title" class="form-control" placeholder="e.g. The Evolution of 5G" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Tanggal *</label>
+                                <input type="text" id="blog-date" class="form-control" placeholder="e.g. June 1, 2026" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Waktu Baca</label>
+                                <input type="text" id="blog-time" class="form-control" placeholder="e.g. 5 min">
+                            </div>
+                            <div class="form-group">
+                                <label>Icon Boxicons</label>
+                                <input type="text" id="blog-icon" class="form-control" placeholder="e.g. bx-book-open">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Cuplikan Teks *</label>
+                            <textarea id="blog-snippet" class="form-control" placeholder="Rangkuman singkat artikel..." required rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit"><i class='bx bx-save'></i> Simpan Artikel</button>
+                    </form>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h3><i class='bx bx-list-ul'></i> Daftar Artikel</h3>
+                    </div>
+                    <table>
+                        <thead><tr><th>Artikel</th><th style="width:160px">Aksi</th></tr></thead>
+                        <tbody id="table-blog"></tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- ======== EDIT MODAL ======== -->
+    <div id="edit-modal" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h3 id="modal-title">Edit Data</h3>
+                <button id="close-modal" class="modal-close"><i class='bx bx-x'></i></button>
+            </div>
+            <form id="modal-form" class="admin-form">
+                <div id="modal-fields"></div>
+                <button type="submit" class="btn-submit"><i class='bx bx-save'></i> Simpan Perubahan</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- ======== TOAST NOTIFICATION ======== -->
+    <div id="toast" class="toast"></div>
+
+    <script type="module" src="js/admin.js"></script>
+</body>
+</html>
