@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "blog": "Blog",
+    "contact": "Contact",
+    "language": "ID"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Ferdilan Ramadhani",
+    "role": "Telecommunication Engineering Student",
+    "tagline": "Building robust communication systems today, engineering the future tomorrow.",
+    "description": "Passionate about networking, signal processing, software development, IoT, and artificial intelligence.",
+    "cta_work": "View My Work",
+    "cta_cv": "Download CV",
+    "scroll_down": "Scroll Down"
+  },
+  "about": {
+    "title": "About",
+    "title_accent": "Me",
+    "subtitle": "Brief Profile",
+    "bio_1": "I am a dedicated Telecommunication Engineering student with a deep fascination for how data travels across the globe. My academic journey has equipped me with a strong foundation in networking protocols, wireless communication, and signal processing.",
+    "bio_2": "Looking toward my future as a professional engineer, I am expanding my skill set into software development, IoT, and artificial intelligence. I believe the best solutions live at the intersection of hardware and software.",
+    "education": "Education",
+    "experience": "Experience",
+    "timeline_title": "My Journey"
+  },
+  "skills": {
+    "title": "Technical",
+    "title_accent": "Skills",
+    "subtitle": "Areas I specialize in",
+    "networking": "Network Engineering",
+    "software": "Software Development",
+    "iot": "IoT & Embedded Systems",
+    "ai": "AI & Machine Learning"
+  },
+  "projects": {
+    "title": "My",
+    "title_accent": "Projects",
+    "subtitle": "Recent work I've built",
+    "all": "All",
+    "networking": "Networking",
+    "software": "Software",
+    "iot": "IoT",
+    "ai": "AI/ML",
+    "view_all": "View All Projects",
+    "view_project": "View Project",
+    "source_code": "Source Code",
+    "technologies": "Technologies",
+    "no_projects": "No projects to display yet.",
+    "back": "Back to Projects"
+  },
+  "certificates": {
+    "title": "Certifications &",
+    "title_accent": "Achievements",
+    "subtitle": "Credentials and academic recognitions",
+    "issued_by": "Issued by",
+    "date": "Date"
+  },
+  "blog": {
+    "title": "Blog &",
+    "title_accent": "Articles",
+    "subtitle": "My technical thoughts and insights",
+    "read_more": "Read More",
+    "view_all": "View All Articles",
+    "min_read": "min read",
+    "published": "Published",
+    "tags": "Tags",
+    "back": "Back to Blog",
+    "no_posts": "No articles published yet."
+  },
+  "contact": {
+    "title": "Contact",
+    "title_accent": "Me",
+    "subtitle": "Open to discussions, collaborations, or job opportunities",
+    "name": "Full Name",
+    "email": "Email Address",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully! I'll get back to you soon.",
+    "error": "An error occurred. Please try again.",
+    "placeholder_name": "John Doe",
+    "placeholder_email": "john@example.com",
+    "placeholder_subject": "Collaboration Discussion",
+    "placeholder_message": "Hi Ferdilan, I'd like to...",
+    "social_title": "Connect With Me"
+  },
+  "footer": {
+    "made_with": "Made with",
+    "by": "by",
+    "rights": "All rights reserved.",
+    "back_to_top": "Back to Top"
+  },
+  "meta": {
+    "home_title": "Ferdilan Ramadhani - Portfolio",
+    "home_description": "Portfolio of Ferdilan Ramadhani, a Telecommunication Engineering Student focused on network engineering, IoT, and software development.",
+    "projects_title": "Projects - Ferdilan Ramadhani",
+    "blog_title": "Blog - Ferdilan Ramadhani"
+  }
+}

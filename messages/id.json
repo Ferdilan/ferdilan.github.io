@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "skills": "Keahlian",
+    "projects": "Proyek",
+    "blog": "Blog",
+    "contact": "Kontak",
+    "language": "EN"
+  },
+  "hero": {
+    "greeting": "Halo, saya",
+    "name": "Ferdilan Ramadhani",
+    "role": "Mahasiswa Teknik Telekomunikasi",
+    "tagline": "Membangun sistem komunikasi yang andal hari ini, merekayasa masa depan esok hari.",
+    "description": "Bersemangat dalam jaringan, pemrosesan sinyal, pengembangan perangkat lunak, IoT, dan kecerdasan buatan.",
+    "cta_work": "Lihat Proyek Saya",
+    "cta_cv": "Unduh CV",
+    "scroll_down": "Gulir ke Bawah"
+  },
+  "about": {
+    "title": "Tentang",
+    "title_accent": "Saya",
+    "subtitle": "Profil Singkat",
+    "bio_1": "Saya adalah mahasiswa Teknik Telekomunikasi yang berdedikasi dengan ketertarikan mendalam pada cara data berpindah melintasi dunia. Perjalanan akademik saya telah membekali saya dengan fondasi kuat dalam protokol jaringan, komunikasi nirkabel, dan pemrosesan sinyal.",
+    "bio_2": "Melihat ke masa depan sebagai insinyur profesional, saya memperluas keahlian ke pengembangan perangkat lunak, IoT, dan kecerdasan buatan. Saya percaya solusi terbaik berada di persimpangan antara perangkat keras dan perangkat lunak.",
+    "education": "Pendidikan",
+    "experience": "Pengalaman",
+    "timeline_title": "Perjalanan Saya"
+  },
+  "skills": {
+    "title": "Keahlian",
+    "title_accent": "Teknis",
+    "subtitle": "Bidang yang saya kuasai",
+    "networking": "Rekayasa Jaringan",
+    "software": "Pengembangan Perangkat Lunak",
+    "iot": "IoT & Sistem Tertanam",
+    "ai": "AI & Machine Learning"
+  },
+  "projects": {
+    "title": "Proyek",
+    "title_accent": "Saya",
+    "subtitle": "Karya terbaru yang telah saya bangun",
+    "all": "Semua",
+    "networking": "Jaringan",
+    "software": "Software",
+    "iot": "IoT",
+    "ai": "AI/ML",
+    "view_all": "Lihat Semua Proyek",
+    "view_project": "Lihat Proyek",
+    "source_code": "Kode Sumber",
+    "technologies": "Teknologi",
+    "no_projects": "Belum ada proyek yang ditampilkan.",
+    "back": "Kembali ke Proyek"
+  },
+  "certificates": {
+    "title": "Sertifikasi &",
+    "title_accent": "Pencapaian",
+    "subtitle": "Kredensial dan penghargaan akademik",
+    "issued_by": "Diterbitkan oleh",
+    "date": "Tanggal"
+  },
+  "blog": {
+    "title": "Blog &",
+    "title_accent": "Artikel",
+    "subtitle": "Pikiran dan wawasan teknis saya",
+    "read_more": "Baca Selengkapnya",
+    "view_all": "Lihat Semua Artikel",
+    "min_read": "menit baca",
+    "published": "Diterbitkan",
+    "tags": "Tag",
+    "back": "Kembali ke Blog",
+    "no_posts": "Belum ada artikel yang diterbitkan."
+  },
+  "contact": {
+    "title": "Hubungi",
+    "title_accent": "Saya",
+    "subtitle": "Saya terbuka untuk diskusi, kolaborasi, atau peluang kerja",
+    "name": "Nama Lengkap",
+    "email": "Alamat Email",
+    "subject": "Subjek",
+    "message": "Pesan",
+    "send": "Kirim Pesan",
+    "sending": "Mengirim...",
+    "success": "Pesan berhasil dikirim! Saya akan segera membalas.",
+    "error": "Terjadi kesalahan. Silakan coba lagi.",
+    "placeholder_name": "John Doe",
+    "placeholder_email": "john@example.com",
+    "placeholder_subject": "Diskusi Kolaborasi",
+    "placeholder_message": "Halo Ferdilan, saya ingin...",
+    "social_title": "Terhubung dengan Saya"
+  },
+  "footer": {
+    "made_with": "Dibuat dengan",
+    "by": "oleh",
+    "rights": "Hak cipta dilindungi.",
+    "back_to_top": "Kembali ke Atas"
+  },
+  "meta": {
+    "home_title": "Ferdilan Ramadhani - Portofolio",
+    "home_description": "Portofolio Ferdilan Ramadhani, Mahasiswa Teknik Telekomunikasi yang berfokus pada rekayasa jaringan, IoT, dan pengembangan perangkat lunak.",
+    "projects_title": "Proyek - Ferdilan Ramadhani",
+    "blog_title": "Blog - Ferdilan Ramadhani"
+  }
+}
